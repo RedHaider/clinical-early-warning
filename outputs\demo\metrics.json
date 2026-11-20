@@ -1,0 +1,48 @@
+{
+  "last_observation": {
+    "overall": {
+      "auroc": 0.6013535008820893,
+      "average_precision": 0.3603474678090656,
+      "brier_score": 0.2428061491451651,
+      "sensitivity": 0.5727699530516432,
+      "specificity": 0.5728952772073922
+    },
+    "younger_group": {
+      "auroc": 0.5726083226083226,
+      "average_precision": 0.2590987053456315,
+      "brier_score": 0.24458640553915445,
+      "sensitivity": 0.5,
+      "specificity": 0.5714285714285714
+    },
+    "older_group": {
+      "auroc": 0.6116638604010409,
+      "average_precision": 0.43730322748320705,
+      "brier_score": 0.24125437485521714,
+      "sensitivity": 0.6115107913669064,
+      "specificity": 0.574468085106383
+    }
+  },
+  "trend_aware": {
+    "overall": {
+      "auroc": 0.6711204943555928,
+      "average_precision": 0.4341811827675175,
+      "brier_score": 0.2286350158414826,
+      "sensitivity": 0.596244131455399,
+      "specificity": 0.6242299794661191
+    },
+    "younger_group": {
+      "auroc": 0.6897254397254398,
+      "average_precision": 0.3843449504987101,
+      "brier_score": 0.22265530263495162,
+      "sensitivity": 0.5945945945945946,
+      "specificity": 0.6507936507936508
+    },
+    "older_group": {
+      "auroc": 0.6525332925149243,
+      "average_precision": 0.48189963171511796,
+      "brier_score": 0.2338472792247155,
+      "sensitivity": 0.5971223021582733,
+      "specificity": 0.5957446808510638
+    }
+  }
+}
